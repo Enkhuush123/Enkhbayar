@@ -1,0 +1,869 @@
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+* button:hover {
+  background-color: black;
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.displayflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 44px;
+}
+
+.Headrmenu {
+  font-weight: 400;
+  font-size: 12px;
+  border: none;
+  background: transparent;
+}
+
+.headrmenu {
+  border: none;
+  background: transparent;
+}
+
+.annouc {
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divannouc {
+  height: 52px;
+  display: flex;
+  justify-content: center;
+}
+
+.intro {
+  font-weight: 600;
+  font-size: 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 20px;
+  padding-top: 55px;
+}
+
+.intro3 {
+  font-weight: 600;
+  font-size: 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 20px;
+  padding-top: 55px;
+}
+
+.just {
+  font-weight: 600;
+  font-size: 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  color: white;
+  gap: 20px;
+  padding-top: 55px;
+  width: 429px;
+  height: 500px;
+  padding-bottom: 20px;
+  display: none;
+}
+
+.intro2 {
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+}
+
+.buttonfir {
+  width: 123px;
+  height: 44px;
+  border-radius: 24px;
+  background-color: #0071e3;
+  color: white;
+  border: none;
+}
+
+.buttonsec {
+  width: 68px;
+  height: 44px;
+  border-radius: 24px;
+  background: none;
+  color: #0071e3;
+  border-color: #0071e3;
+}
+
+.buttoncolor {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.buttoncolor2 {
+  color: white;
+  border-color: white;
+  background: none;
+}
+
+.part2text {
+  font-weight: 600;
+  font-size: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.part2text2 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.part2button {
+  width: 114px;
+  height: 44px;
+  border-radius: 24px;
+  background-color: #0071e3;
+  line-height: 0px;
+  letter-spacing: 0px;
+  color: white;
+  font-size: 12px;
+  border: none;
+}
+
+.padder {
+  padding-bottom: 150px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  aspect-ratio: 1920/692;
+  text-align: center;
+}
+
+.part2button:hover {
+  background-color: black;
+}
+
+.background1 {
+  width: 100%;
+  aspect-ratio: 1920/692;
+
+  gap: 20px;
+}
+
+.background2 {
+  width: 100%;
+  aspect-ratio: 1920/692;
+}
+.img1 {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+}
+
+.img2 {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+}
+
+.displaywrap {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.displaywrap-item {
+  width: 49%;
+  aspect-ratio: 942/580;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.displaywrap-item2 {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  z-index: -1;
+}
+
+.part3button {
+  width: 115px;
+  height: 40px;
+  border-radius: 24px;
+  background-color: #0071e3;
+  color: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.part3button2 {
+  width: 68px;
+  height: 40px;
+  border-radius: 24px;
+  border-color: #0071e3;
+  background: none;
+  color: #2997ff;
+}
+
+.part3buttonf {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.scrollimg {
+  width: 100%;
+  height: 668px;
+  aspect-ratio: 3.1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  overflow: scroll;
+  gap: 10px;
+}
+
+.scrollimgdiv {
+  width: 1250px;
+  height: 668px;
+  position: relative;
+}
+
+.stream {
+  width: 133px;
+  height: 44px;
+  border-radius: 24px;
+  font-weight: 400;
+  font-size: 17px;
+  border: none;
+}
+
+.scrollimgpart2 {
+  width: 100vw;
+  height: 236px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  overflow: scroll;
+  gap: 10px;
+}
+
+.scrollimgpart2div {
+  width: 417px;
+  height: 236px;
+  position: relative;
+  display: flex;
+}
+
+.scrollimgpart2img {
+  width: 100%;
+  height: 236px;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+}
+
+.part2img1text1 {
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+}
+
+.vecta {
+  width: 77.92px;
+  height: 13.82px;
+}
+
+.vecta2 {
+  width: 68px;
+  height: 14px;
+}
+
+.imgpart1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 417px;
+  align-items: end;
+  padding: 20px;
+}
+
+.scrollimp1 {
+  width: 100%;
+  height: 668px;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+}
+
+.fly {
+  display: flex;
+  align-items: end;
+  width: 1250px;
+  height: 668px;
+  flex-direction: row;
+  padding: 50px;
+  padding-left: 100px;
+  gap: 30px;
+}
+
+.tablist {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.displaywrapte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.figureback {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+  padding: 50px;
+}
+
+.appletext {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: end;
+  width: 50%;
+  height: 50%;
+}
+
+.figure2 {
+  color: white;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.air {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.figure3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  gap: 10px;
+}
+
+.watch {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.watchtex {
+  display: flex;
+  font-weight: 700;
+  font-size: 15px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thistant {
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  text-align: center;
+}
+
+.vector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.vectorimg {
+  width: 25.33px;
+  height: 29px;
+}
+
+.headingimg {
+  width: 430px;
+  height: 33px;
+}
+
+.part1te {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.figure4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  gap: 10px;
+}
+
+.macbook {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.macbooktext {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.figure5 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+
+.vector2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.vector2he {
+  width: 25.33px;
+  height: 29px;
+}
+
+.buttonest {
+  width: 167px;
+  height: 40px;
+  background-color: #0071e3;
+  border-radius: 24px;
+  border: none;
+  color: white;
+}
+
+.applybutton {
+  width: 112px;
+  height: 40px;
+  border-color: #0071e3;
+  background: none;
+  color: #0071e3;
+  border-radius: 24px;
+}
+
+.figure6 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  gap: 20px;
+}
+.scrollimgpart3 {
+  width: 100%;
+  height: 368px;
+  display: none;
+  overflow: scroll;
+  gap: 10px;
+}
+
+.scrollimg2div1 {
+  width: 689px;
+  height: 368px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.scrollimg2 {
+  width: 100%;
+  height: 368px;
+  display: none;
+  position: absolute;
+  z-index: -1;
+}
+
+.fly2 {
+  align-items: end;
+  width: 689px;
+  flex-direction: row;
+  display: flex;
+  padding: 30px;
+  gap: 20px;
+}
+
+.flytext {
+  color: white;
+}
+
+.part3 {
+  width: 100%;
+  height: 500px;
+  display: none;
+  position: absolute;
+  z-index: -1;
+}
+
+.scrollimgphone {
+  width: 430px;
+  height: 500px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  display: none;
+}
+
+.scrollimgphone1 {
+  width: 274px;
+  height: 495px;
+  display: none;
+}
+
+.La {
+  width: 300px;
+  height: 161px;
+  background-color: #6529cf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.scrollpart2ta {
+  width: 100%;
+  height: 194px;
+  display: flex;
+  overflow: scroll;
+  gap: 12px;
+  display: none;
+}
+
+.Laimg {
+  width: 114px;
+  height: 114px;
+  display: none;
+}
+
+.scrollpart2ta1 {
+  width: 286px;
+  height: 161px;
+  display: none;
+}
+
+.scrollphone {
+  width: 430px;
+  height: 160px;
+  display: flex;
+  display: none;
+  gap: 12px;
+  overflow: scroll;
+}
+
+.scrollphone1 {
+  width: 238px;
+  height: 134px;
+}
+
+.textfortab {
+  font-weight: 700;
+  font-size: 14px;
+  color: black;
+}
+
+.scrolltab {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttonlast {
+  display: flex;
+  justify-content: end;
+}
+
+.buttonlastimg {
+  width: 24px;
+  height: 24px;
+  border: none;
+  padding-right: 30px;
+  background: transparent;
+}
+
+@media (max-width: 768px) {
+  .body {
+    max-width: 768px;
+  }
+  .Headrmenu {
+    display: none;
+    border: none;
+    background: transparent;
+    justify-content: space-between;
+  }
+  .displayflex {
+    max-width: 768px;
+    justify-content: space-between;
+    padding: 25px;
+  }
+
+  .annouc {
+    text-align: center;
+    height: 48px;
+  }
+
+  .background1 {
+    aspect-ratio: 768/650;
+  }
+
+  .img1 {
+    aspect-ratio: 768/650;
+  }
+
+  .background2 {
+    aspect-ratio: 768/650;
+  }
+
+  .img2 {
+    width: 768px;
+    height: 650px;
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+    display: flex;
+  }
+
+  .displaywrap-item {
+    width: 49%;
+    aspect-ratio: 366/490;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .displaywrap-item2 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .scrollimgpart3 {
+    display: flex;
+    width: 100vw;
+    height: 368px;
+  }
+
+  .scrollimg2 {
+    display: flex;
+    width: 100%;
+    height: 368px;
+  }
+
+  .scrollimg2div1 {
+    width: 689px;
+    height: 368px;
+    display: flex;
+  }
+
+  .scrollimg {
+    display: none;
+  }
+  .part2text {
+    display: flex;
+    padding-top: 250px;
+  }
+  .scrollimgpart2 {
+    display: none;
+  }
+
+  .scrollpart2ta {
+    display: flex;
+  }
+
+  .scrollpart2ta1 {
+    display: flex;
+  }
+
+  .La {
+    display: flex;
+  }
+
+  .Laimg {
+    display: flex;
+  }
+
+  .padder {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    aspect-ratio: 768/650;
+    gap: 10px;
+  }
+
+  .part2text {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 430px) {
+  body {
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .part3 {
+    display: flex;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .background1 {
+    width: 430px;
+    height: 500px;
+  }
+
+  .displaywrap {
+    width: 430px;
+  }
+
+  .img2 {
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+    display: flex;
+  }
+
+  .displaywrap-item {
+    width: 100%;
+    height: 500px;
+  }
+  .intro {
+    font-size: 30px;
+    display: flex;
+  }
+  .intro2 {
+    font-size: 18px;
+  }
+
+  .scrollimgphone {
+    display: flex;
+  }
+
+  .scrollimgphone1 {
+    display: flex;
+  }
+
+  .scrollimg {
+    display: none;
+  }
+
+  .scrollimg1 {
+    display: none;
+  }
+
+  .scrollimgpart3 {
+    display: none;
+  }
+
+  .scrollpart2ta {
+    display: none;
+  }
+
+  .scrollphone {
+    display: flex;
+  }
+
+  .La {
+    width: 238px;
+    height: 134px;
+  }
+
+  .scrolltab {
+    display: flex;
+    gap: 0px;
+  }
+
+  .textfortab {
+    font-size: 12px;
+  }
+
+  .intro {
+    display: none;
+  }
+
+  .just {
+    display: flex;
+    font-size: 30px;
+  }
+
+  .intro2 {
+    font-size: 20px;
+  }
+
+  .intro3 {
+    font-size: 30px;
+    padding-top: 30px;
+  }
+
+  .background2 {
+    width: 430px;
+    height: 500px;
+  }
+
+  .padder {
+    width: 430px;
+    height: 500px;
+    padding: 40px;
+  }
+
+  .part2text {
+    font-size: 22px;
+  }
+
+  .part2text2 {
+    font-size: 15px;
+  }
+}
