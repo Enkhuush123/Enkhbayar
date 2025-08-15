@@ -655,7 +655,8 @@ body {
   }
 
   .background2 {
-    aspect-ratio: 768/650;
+    width: 768px;
+    height: 650px;
   }
 
   .img2 {
