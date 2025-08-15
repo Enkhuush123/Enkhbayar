@@ -7,8 +7,7 @@
   cursor: pointer;
 }
 * button:hover {
-  background-color: black;
-  color: white;
+  box-shadow: 1px;
 }
 
 .displayflex {
